@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Viagem</h1>
+    <form action="#">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Escreva seu nome" autofocus required />
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Escreva seu email" required />
+        <br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha" name="senha" placeholder="Escreva sua senha" required />
+        <br><br>
+
+        <label for="genero">Gênero: </label>
+        <select name="genero" id="genero">
+            <option value="Masc">Masculino</option>
+            <option value="Fem">Feminino</option>
+        </select>
+        <br><br>
+
+        <fieldset>
+            <legend>Qual a forma de pagamento?</legend>
+            
+            <label for="credito">Cartão de Crédito</label>
+            <input type="radio" name="pagamento" id="credito" /> <br>
+
+            <label for="debito">Cartão de Débito</label>
+            <input type="radio" name="pagamento" id="debito" /> <br>
+
+            <label for="pix">Pix</label>
+            <input type="radio" name="pagamento" id="pix" />
+        </fieldset>
+        <br>
+        
+        <label for="comentario">Comentário: </label>
+        <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="Escreva uma mensagem ou comentário"></textarea>
+        <br><br>
+
+        <label for="qtd">Quantidade de pessoas: </label>
+        <input type="number" name="qtd" id="qtd" />
+        <br><br>
+
+        <label for="social">Link de Rede Social: </label>
+        <input type="url" name="social" id="social" placeholder="Digite link de sua rede social" />
+        <br><br>
+
+        <label for="satisfacao">Satisfação com nosso serviço: </label>
+        <input type="range" name="satisfacao" id="satisfacao" min="0" max="10" value="5" />
+        <br><br>
+
+        <label for="Telefone">Telefone: </label>
+        <input type="tel" name="tel" id="tel" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" placeholder="Digite seu telefone" />
+        <br><br>
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+    </form>
+</body>
+</html>
