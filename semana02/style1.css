@@ -1,8 +1,0 @@
-p{
-    background-color: red;
-}
-
-div~p{
-    background-color: blue;
-}
-
