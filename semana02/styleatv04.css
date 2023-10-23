@@ -1,2 +1,27 @@
 @charset "UTF-8";
 
+p::first-line{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p::after{
+    content: " - Fim do parágrafo";
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p::before{
+    content: "Início do parágrafo - ";
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p::first-letter{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
