@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#paragrafo{
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#bloco{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 50px;
+}
