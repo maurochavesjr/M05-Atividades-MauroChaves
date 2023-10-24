@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.box3{
+    border: 2px solid blue;
+}
+
+img{
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.box4{
+    margin: 10px;
+    border: 1px solid green;
+    border-style: dashed;
+}
+
+.box5{
+    margin: 10px;
+    border: 1px solid rgb(128, 0, 111);
+    border-style: dotted;
+}
+
+.box6{
+    margin: 10px;
+    border: 5px solid rgb(128, 87, 0);
+    border-style: double;
+}

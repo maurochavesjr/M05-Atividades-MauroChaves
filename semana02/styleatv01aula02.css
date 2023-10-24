@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.box1{
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+div{
+    display: inline-block;
+}
+
+.box2{
+    border: 1px solid green;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+.box3{
+    border: 1px solid red;
+}

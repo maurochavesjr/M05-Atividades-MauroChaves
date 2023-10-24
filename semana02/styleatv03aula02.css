@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.box4{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0; 
+    display: flex; 
+}
+
+.menu li {
+    padding: 10px 20px;
+} 
+
+
+.menu a {
+    text-decoration: none; 
+    color: green; 
+}
