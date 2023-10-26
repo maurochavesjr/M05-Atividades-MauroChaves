@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hcb{
+    background-color: #86c28b;
+    color: white ;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.menu ul li:nth-child(1){
+    background-color: #63976f;
+}
+
+.menu ul li:nth-child(2){
+    background-color: #6ba377;
+}
+
+.menu ul li:nth-child(3){
+    background-color: #7ab37f;
+}
+
+.menu ul li:hover{
+    background-color: #00a600;
+}
+
+.texto{
+    text-align: justify;
+    padding: 10px;
+    background-color: #859987;
+    color: white;
+}
+
+.tabela{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    background-color: rgba(0, 128, 128, 0.548);
+}
+
+.tabela h2{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color:#4a4857;
+    color: white;
+}
+
+.tabela th{
+    padding: 5px;
+    width: 100vw;
+    background-color: #44684c;
+    color: white;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tabela td{
+    padding: 5px;
+    color: white;
+    border: 2px solid black;
+}
+
+.tabela tr:nth-child(even){
+    background-color: #63976f;
+}
+
+.tabela tr:nth-child(odd){
+    background-color: #84cc94;
+}
+
+.tabela tr:hover{
+    background-color: #00a600;
+}
+
+#pnl{
+    margin: 0;
+    text-align: center;
+    background-color: #4a4857;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+#pnl button{
+    margin: 10px;
+}
+
+#pnl img{
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+}
+
+.rodape{
+    background-color: #86c28b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.rodape:hover{
+    background-color: #00a600;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
