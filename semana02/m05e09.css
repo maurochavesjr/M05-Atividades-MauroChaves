@@ -8,7 +8,7 @@ body{
 #hcb{
     background-color: #86c28b;
     color: white ;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0), -2px 2px 2px rgb(0, 0, 0), 2px -2px 2px rgb(0, 0, 0), -2px -2px 2px rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     padding: 10px 0;
@@ -22,32 +22,46 @@ body{
     padding: 0;
 }
 
-.menu li a{
-    display: block;
+.menu ul li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+    display: flex;
     padding: 5px;
     text-decoration: none;
     color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
-.menu ul li{
-    list-style-type: none;
-    float: left;
-    padding: 5px;
-    text-align: center;
-    width: 33.33%;
-    box-sizing: border-box;
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .menu ul li:nth-child(1){
     background-color: #63976f;
+    position: fixed;
+    top: 100px;
 }
 
 .menu ul li:nth-child(2){
     background-color: #6ba377;
+    position: fixed;
+    top: 200px;
 }
 
 .menu ul li:nth-child(3){
     background-color: #7ab37f;
+    position: fixed;
+    top: 300px;
 }
 
 .menu ul li:hover{
@@ -55,40 +69,40 @@ body{
 }
 
 .texto{
-    text-align: justify;
+    text-align: center;
     padding: 10px;
-    background-color: #859987;
-    color: white;
+    color: black;
+    max-width: calc(100vw - 250px);
+    margin: 0 auto;
 }
 
 .tabela{
-    width: 100%;
-    margin: 0;
-    padding: 0px;
-    background-color: rgba(0, 128, 128, 0.548);
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color:#4a4857;
+    border-collapse: collapse;
 }
 
 .tabela h2{
     text-align: center;
-    padding: 10px;
-    margin: 0;
-    background-color:#4a4857;
     color: white;
+}
+
+.tabela table{
+    display: flex;
+    justify-content: center;
+}
+
+.tabela td, th{
+    border: 2px solid black;
+    padding: 5px;
 }
 
 .tabela th{
-    padding: 5px;
-    width: 100vw;
-    background-color: #44684c;
+    background-color: #67976b;
     color: white;
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-
-.tabela td{
-    padding: 5px;
-    color: white;
-    border: 2px solid black;
+    text-align: center;
 }
 
 .tabela tr:nth-child(even){
@@ -112,12 +126,18 @@ body{
 
 #pnl button{
     margin: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0), -2px 2px 2px rgb(0, 0, 0), 2px -2px 2px rgb(0, 0, 0), -2px -2px 2px rgb(0, 0, 0);
+}
+
+#pnl button:hover{
+    background-color: #00a600;
 }
 
 #pnl img{
     width: 70px;
     height: 70px;
     margin: 2px;
+    object-fit: cover;
 }
 
 .rodape{
@@ -136,6 +156,6 @@ body{
 .rodape a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
